@@ -1,5 +1,6 @@
 <h1 align="center">Clustering</h1><br>
-<b>Clustering</b> is the task of dividing the population or data points into a number of groups (Clusters) such that data points in the same groups are more similar to other data points in the same group than those in other groups. In simple words, the aim is to segregate groups with similar traits and assign them into clusters.<br><br>
+<li><b>Clustering</b> is the task of dividing the population or data points into a number of groups (Clusters) such that data points in the same groups are more similar to other data points in the same group than those in other groups. In simple words, the aim is to segregate groups with similar traits and assign them into clusters.<br>
+<li>The goal is sometimes to arrange the clusters into a natural hierarchy. This involves successively grouping the clusters themselves so that at each level of the hierarchy, clusters within the same group are moresimilar to each other than those in different groups.<br><br>
 
 <img src="images/Clustering example.jpg"></img>
 

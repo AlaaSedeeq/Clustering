@@ -1,22 +1,35 @@
 <h1 align="center">Clustering</h1><br>
-<li><b>Clustering</b> is the task of dividing the population or data points into a number of groups (Clusters) such that data points in the same groups are more similar to other data points in the same group than those in other groups. In simple words, the aim is to segregate groups with similar traits and assign them into clusters.<br>
-<li>The goal is sometimes to arrange the clusters into a natural hierarchy. This involves successively grouping the clusters themselves so that at each level of the hierarchy, clusters within the same group are moresimilar to each other than those in different groups.<br><br>
+Clustering is the task of dividing the population or data points into a number of groups (Clusters) such that data points in the same groups are more similar to other data points in the same group than those in other groups. In simple words, the aim is to segregate groups with similar traits and assign them into clusters.
 
-<img src="images/Clustering example.jpg"></img>
+<img src="images/Clustering example.jpg">
 
-### KMeans: <br>
-
-K means is an iterative clustering algorithm that aims to find local maxima in each iteration. This algorithm works in these 5 steps :
-- Specify the desired number of clusters K.
-- Randomly assign each data point to a cluster.
-- Compute cluster centroids.
-- Re-assign each point to the closest cluster centroid.
-- Re-compute cluster centroids.
-
-**We need to achieve:**
-- Minimum distance between points in a cluster.
-- Maximum distance between clusters (Centroids).
-
-
-### Reference
-- <a href="http://noiselab.ucsd.edu/ECE228/Murphy_Machine_Learning.pdf">Machine Learning A Probabilistic Perspective</a>
+<h3>Clustering Approaches :</h3>
+<ul>
+    <li>Hierarchical Clustering:
+        <ul>
+            <li>Agglomerative Clustering (Bottom-Up)
+            <li>Divisive Clustering (Up-Bottom)
+        </ul>
+    <li>Model-Based Clustering:
+        <ul>
+            <li> EM
+            <li> GMM
+        </ul>
+    <li>Partial Competitive Clustering:
+        <ul>
+            <li> K-Means
+            <li> K-Means++
+            <li> Batch K-Means
+            <li> K-Medoids "Partitioning around medoids(PAM)"
+            <li> Neural Gas
+            <li> Self-Organizing Maps (SOM)
+        </ul>
+    <li>Density-Based Clustering:
+        <ul>
+            <li> DBSCAN (Density-Based Spatial Clustering Of Applications With Noise)
+        </ul>
+    <li>Graph-Based Clustering:
+        <ul>
+            <li> POBOC (Pole-Based Overlapping Clustering)
+        </ul>
+</ul>
